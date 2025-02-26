@@ -6,15 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./static/styles.css">
   </head>
-
   <body>
-    <h1><strong><em>full list</em></strong></h1>
-    <div class="card">
-      <ul>
-        <li><a href="./recipes/cherry.html" title="Cherry Ice Cream Recipe"><em>cherry ice cream recipe</em></a></li>
-        <li><a href="./recipes/lasagna.html" title="Lasagna Recipe"><em>lasagna recipe</em></a></li>
-        <li><a href="./recipes/sundae.html" title="Sundae Recipe"><em>sundae recipe</em></a></li>
-      </ul>
+    <header class="header">
+      <h1>Welcome to Odin Recipes</h1>
+    </header>
+    <div class="container">
+      <section class="intro">
+        <h2>Discover Delicious Recipes</h2>
+        <p>Explore our collection of mouth-watering recipes that are easy to make and perfect for any occasion.</p>
+      </section>
+      <section class="recipes">
+        <h2>Recipe List</h2>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="card">
+          <ul>
+            <li><a href="./recipes/cherry.html" title="Cherry Ice Cream Recipe"><em>Cherry Ice Cream Recipe</em></a></li>
+            <li><a href="./recipes/lasagna.html" title="Lasagna Recipe"><em>Lasagna Recipe</em></a></li>
+            <li><a href="./recipes/sundae.html" title="Sundae Recipe"><em>Sundae Recipe</em></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="hero">
+        <h1>Welcome to Odin Recipes</h1>
+        <p>Your ultimate destination for delicious and easy-to-make recipes.</p>
+      </section>
+      <aside class="sidebar">
+        <h2>Quick Links</h2>
+        <button onclick="location.href='#home'">Home</button>
+        <button onclick="location.href='#recipes'">Recipes</button>
+        <button onclick="location.href='#about'">About</button>
+        <button onclick="location.href='#contact'">Contact</button>
+      </aside>
+      <section class="additional-content">
+        <h2>Featured Recipes</h2>
+        <p>Check out our featured recipes that are loved by our community.</p>
+      </section>
     </div>
+    <footer class="footer">
+      <p>&copy; 2023 Odin Recipes. All rights reserved.</p>
+    </footer>
   </body>
 </html>
